@@ -47,8 +47,8 @@ function clearList() {
   displayList();
 }
 function clearCompletedList() {
-  const notCompleted=listToDo.filter((item) =>item.status);
-  console.log(notCompleted);
+  const notCompleted=listToDo.filter((item) =>item.isComplete==true);
+  //console.log(notCompleted);
   //return notCompleted;
   //displayList();
 }
