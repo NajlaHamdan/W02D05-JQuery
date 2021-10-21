@@ -1,0 +1,15 @@
+body{
+    margin:12% 12% ;
+    width:65%;
+    height:100%;
+  
+}
+.InputButton{
+    margin:12% 12%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+input{
+   
+}
