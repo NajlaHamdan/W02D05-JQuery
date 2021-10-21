@@ -29,7 +29,7 @@ function counterNotCompetedTask() {
 function addToList() {
   const item = $("input").val();
   if(item.length && item.trim().length){
-    listToDo.push({ name: item, isComplete: true });
+    listToDo.push({ name: item, isComplete: false });
     displayList();
   }
 }
